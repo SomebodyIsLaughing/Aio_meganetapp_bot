@@ -1,7 +1,6 @@
 from aiogram.types import ReplyKeyboardRemove, \
     ReplyKeyboardMarkup, KeyboardButton, \
     InlineKeyboardMarkup, InlineKeyboardButton
-import emoji
 
 # Кнопки поддержки по работе с mysupport
 inline_btn_1 = InlineKeyboardButton('Проверить гарантию', callback_data='button1', url='https://anton-kyrylenko.gitbook.io/tets/')
