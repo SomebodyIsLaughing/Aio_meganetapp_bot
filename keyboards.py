@@ -18,3 +18,34 @@ ontap_btn_3 = InlineKeyboardButton('Восстановить пароль', call
 #inline_btn_5 = InlineKeyboardButton('Открыть кейс', callback_data='button2', url='')
 ontap_kb1 = InlineKeyboardMarkup(row_width=2).add(ontap_btn_1,ontap_btn_2,ontap_btn_3)
 
+# конпки поддержки по работе с ontap_special
+ontap_btn_1 = InlineKeyboardButton('Как бновить ПО', callback_data='button1', url='')
+ontap_btn_2 = InlineKeyboardButton('Обновить сертификат', callback_data='button2', url='')
+ontap_btn_3 = InlineKeyboardButton('Восстановить пароль', callback_data='button2', url='')
+#inline_btn_4 = InlineKeyboardButton('Открыть кейс', callback_data='button2', url='')
+#inline_btn_5 = InlineKeyboardButton('Открыть кейс', callback_data='button2', url='')
+ontap_kb1 = InlineKeyboardMarkup(row_width=2).add(ontap_btn_1,ontap_btn_2,ontap_btn_3)
+
+# конпки поддержки по работе с e-series
+ontap_btn_1 = InlineKeyboardButton('Как бновить ПО', callback_data='button1', url='')
+ontap_btn_2 = InlineKeyboardButton('Обновить сертификат', callback_data='button2', url='')
+ontap_btn_3 = InlineKeyboardButton('Восстановить пароль', callback_data='button2', url='')
+#inline_btn_4 = InlineKeyboardButton('Открыть кейс', callback_data='button2', url='')
+#inline_btn_5 = InlineKeyboardButton('Открыть кейс', callback_data='button2', url='')
+ontap_kb1 = InlineKeyboardMarkup(row_width=2).add(ontap_btn_1,ontap_btn_2,ontap_btn_3)
+
+# конпки поддержки по работе с portfolio
+ontap_btn_1 = InlineKeyboardButton('Как бновить ПО', callback_data='button1', url='')
+ontap_btn_2 = InlineKeyboardButton('Обновить сертификат', callback_data='button2', url='')
+ontap_btn_3 = InlineKeyboardButton('Восстановить пароль', callback_data='button2', url='')
+#inline_btn_4 = InlineKeyboardButton('Открыть кейс', callback_data='button2', url='')
+#inline_btn_5 = InlineKeyboardButton('Открыть кейс', callback_data='button2', url='')
+ontap_kb1 = InlineKeyboardMarkup(row_width=2).add(ontap_btn_1,ontap_btn_2,ontap_btn_3)
+
+# конпки поддержки по работе с design
+ontap_btn_1 = InlineKeyboardButton('Как бновить ПО', callback_data='button1', url='')
+ontap_btn_2 = InlineKeyboardButton('Обновить сертификат', callback_data='button2', url='')
+ontap_btn_3 = InlineKeyboardButton('Восстановить пароль', callback_data='button2', url='')
+#inline_btn_4 = InlineKeyboardButton('Открыть кейс', callback_data='button2', url='')
+#inline_btn_5 = InlineKeyboardButton('Открыть кейс', callback_data='button2', url='')
+ontap_kb1 = InlineKeyboardMarkup(row_width=2).add(ontap_btn_1,ontap_btn_2,ontap_btn_3)
