@@ -8,7 +8,7 @@ bot = Bot(token=TOKEN)
 dp = Dispatcher(bot)
 
 # Помощь
-@dp.message_handler(commands=['help'])
+@dp.message_handler(commands=['start'])
 async def process_help_command(message: types.Message):
     await message.reply(hp.start_message)
 
