@@ -10,7 +10,7 @@ dp = Dispatcher(bot)
 # Помощь
 @dp.message_handler(commands=['help'])
 async def process_help_command(message: types.Message):
-    await message.reply(hp.help_message)
+    await message.reply(hp.start_message)
 
 # Клавиатура - mysupport
 @dp.message_handler(commands=['mysupport'])
