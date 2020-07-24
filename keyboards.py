@@ -43,9 +43,9 @@ port_btn_3 = InlineKeyboardButton('E-series', callback_data='button3', url='http
 port_kb1 = InlineKeyboardMarkup(row_width=2).add(ontap_btn_1,ontap_btn_2,ontap_btn_3)
 
 # конпки поддержки по работе с design
-des_btn_1 = InlineKeyboardButton('Как бновить ПО', callback_data='button1', url='')
-des_btn_2 = InlineKeyboardButton('Обновить сертификат', callback_data='button2', url='')
-des_btn_3 = InlineKeyboardButton('Восстановить пароль', callback_data='button2', url='')
+#des_btn_1 = InlineKeyboardButton('Как бновить ПО', callback_data='button1', url='')
+#des_btn_2 = InlineKeyboardButton('Обновить сертификат', callback_data='button2', url='')
+#des_btn_3 = InlineKeyboardButton('Восстановить пароль', callback_data='button2', url='')
 #inline_btn_4 = InlineKeyboardButton('Открыть кейс', callback_data='button2', url='')
 #inline_btn_5 = InlineKeyboardButton('Открыть кейс', callback_data='button2', url='')
 design_kb1 = InlineKeyboardMarkup(row_width=2).add(ontap_btn_1,ontap_btn_2,ontap_btn_3)
