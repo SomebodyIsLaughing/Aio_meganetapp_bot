@@ -3,11 +3,11 @@ from aiogram.types import ReplyKeyboardRemove, \
     InlineKeyboardMarkup, InlineKeyboardButton
 
 # Кнопки поддержки по работе с mysupport
-inline_btn_1 = InlineKeyboardButton('Проверить гарантию', callback_data='button1', url='https://is.gd/tbnja8')
-inline_btn_2 = InlineKeyboardButton('Открыть кейс', callback_data='button2', url='https://is.gd/QhQVUz')
+inline_btn_1 = InlineKeyboardButton('Проверить гарантию', callback_data='button1', url='https://is.gd/OoBZiC')
+inline_btn_2 = InlineKeyboardButton('Обращение в тех. поддержку', callback_data='button2', url='https://is.gd/0uDvTz')
 inline_btn_3 = InlineKeyboardButton('Регистрация системы', callback_data='button3', url='')
 inline_btn_4 = InlineKeyboardButton('Таблица сервисов', callback_data='button4', url='https://is.gd/JCYyVV')
-inline_btn_5 = InlineKeyboardButton('Регистрация пользователя', callback_data='button5', url='https://is.gd/pfzS0s')
+inline_btn_5 = InlineKeyboardButton('Регистрация пользователя', callback_data='button5', url='https://is.gd/4UnsZV')
 inline_kb1 = InlineKeyboardMarkup(row_width=1).add(inline_btn_1,inline_btn_2,inline_btn_3,inline_btn_4,inline_btn_5)
 
 # конпки поддержки по работе с ontap_basic
