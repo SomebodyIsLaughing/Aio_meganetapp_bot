@@ -3,12 +3,12 @@ from aiogram.types import ReplyKeyboardRemove, \
     InlineKeyboardMarkup, InlineKeyboardButton
 
 # Кнопки поддержки по работе с mysupport
-inline_btn_1 = InlineKeyboardButton('Проверить гарантию', callback_data='button1', url='https://anton-kyrylenko.gitbook.io/tets/')
-inline_btn_2 = InlineKeyboardButton('Открыть кейс', callback_data='button2', url='https://app.gitbook.com/@anton-kyrylenko/s/tets/obrashenie-v-tekh.-podderzhku-netapp')
-inline_btn_3 = InlineKeyboardButton('Рег. системы', callback_data='button3', url='https://app.gitbook.com/@anton-kyrylenko/s/tets/mysupport/operacii-s-akkauntom')
-inline_btn_4 = InlineKeyboardButton('Таблица сервисов', callback_data='button4', url='https://drive.google.com/file/d/1MNOpB0tPnHroPhtrmfhTEDiNvkYLuBWF/view?usp=sharing')
-#inline_btn_5 = InlineKeyboardButton('Открыть кейс', callback_data='button2', url='')
-inline_kb1 = InlineKeyboardMarkup(row_width=1).add(inline_btn_1,inline_btn_2,inline_btn_3)
+inline_btn_1 = InlineKeyboardButton('Проверить гарантию', callback_data='button1', url='https://is.gd/tbnja8')
+inline_btn_2 = InlineKeyboardButton('Открыть кейс', callback_data='button2', url='https://is.gd/QhQVUz')
+inline_btn_3 = InlineKeyboardButton('Регистрация системы', callback_data='button3', url='')
+inline_btn_4 = InlineKeyboardButton('Таблица сервисов', callback_data='button4', url='https://is.gd/JCYyVV')
+inline_btn_5 = InlineKeyboardButton('Регистрация пользователя', callback_data='button5', url='https://is.gd/pfzS0s')
+inline_kb1 = InlineKeyboardMarkup(row_width=1).add(inline_btn_1,inline_btn_2,inline_btn_3,inline_btn_4,inline_btn_5)
 
 # конпки поддержки по работе с ontap_basic
 ontap_btn_1 = InlineKeyboardButton('Как скачать прошивку', callback_data='button1', url='https://app.gitbook.com/@anton-kyrylenko/s/tets/ontap/untitled-1')
