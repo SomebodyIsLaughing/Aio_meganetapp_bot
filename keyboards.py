@@ -11,9 +11,9 @@ inline_btn_5 = InlineKeyboardButton('Регистрация пользовате
 inline_kb1 = InlineKeyboardMarkup(row_width=1).add(inline_btn_1,inline_btn_2,inline_btn_3,inline_btn_4,inline_btn_5)
 
 # конпки поддержки по работе с ontap_basic
-ontap_btn_1 = InlineKeyboardButton('Как скачать прошивку', callback_data='button1', url='https://app.gitbook.com/@anton-kyrylenko/s/tets/ontap/untitled-1')
-ontap_btn_2 = InlineKeyboardButton('Как обновить прошивку', callback_data='button2', url='https://app.gitbook.com/@anton-kyrylenko/s/tets/ontap/untitled')
-ontap_btn_3 = InlineKeyboardButton('AutoSupport', callback_data='button3', url='https://app.gitbook.com/@anton-kyrylenko/s/tets/ontap/kak-nastroit-autosupport')
+ontap_btn_1 = InlineKeyboardButton('Как скачать прошивку', callback_data='button1', url='https://is.gd/aPBNIH')
+ontap_btn_2 = InlineKeyboardButton('Как обновить прошивку', callback_data='button2', url='https://is.gd/4VnZUr')
+ontap_btn_3 = InlineKeyboardButton('AutoSupport', callback_data='button3', url='')
 #inline_btn_4 = InlineKeyboardButton('Открыть кейс', callback_data='button2', url='')
 #inline_btn_5 = InlineKeyboardButton('Открыть кейс', callback_data='button2', url='')
 ontap_kb1 = InlineKeyboardMarkup(row_width=1).add(ontap_btn_1,ontap_btn_2,ontap_btn_3)
