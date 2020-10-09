@@ -3,12 +3,13 @@ from aiogram.types import ReplyKeyboardRemove, \
     InlineKeyboardMarkup, InlineKeyboardButton
 
 # Кнопки поддержки по работе с mysupport
-inline_btn_1 = InlineKeyboardButton('Проверить гарантию', callback_data='button1', url='https://is.gd/OoBZiC')
-inline_btn_2 = InlineKeyboardButton('Обращение в тех. поддержку', callback_data='button2', url='https://is.gd/0uDvTz')
-inline_btn_3 = InlineKeyboardButton('Регистрация системы', callback_data='button3', url='')
-inline_btn_4 = InlineKeyboardButton('Таблица сервисов', callback_data='button4', url='https://is.gd/JCYyVV')
-inline_btn_5 = InlineKeyboardButton('Регистрация пользователя', callback_data='button5', url='https://is.gd/4UnsZV')
-inline_kb1 = InlineKeyboardMarkup(row_width=1).add(inline_btn_1,inline_btn_2,inline_btn_3,inline_btn_4,inline_btn_5)
+inline_btn_1 = InlineKeyboardButton('Посмотреть серийный номер', callback_data='button1', url='https://app.gitbook.com/@anton-kyrylenko/s/netapp/mysupport/kak-uznat-seriinyi-nomer-sistemy')
+inline_btn_2 = InlineKeyboardButton('Регистрация системы', callback_data='button2', url='https://app.gitbook.com/@anton-kyrylenko/s/netapp/mysupport/registraciya-sistemy')
+inline_btn_3 = InlineKeyboardButton('Операции с аккаунтом', callback_data='button3', url='https://app.gitbook.com/@anton-kyrylenko/s/netapp/mysupport/operacii-s-akkauntom')
+inline_btn_4 = InlineKeyboardButton('Обращение в тех. поддержку', callback_data='button4', url='https://app.gitbook.com/@anton-kyrylenko/s/netapp/mysupport/obrashenie-v-tekh.-podderzhku-netapp')
+inline_btn_5 = InlineKeyboardButton('Проверить гарантию', callback_data='button5', url='https://app.gitbook.com/@anton-kyrylenko/s/netapp/mysupport/kak-posmotret-status-garantii-i-uroven-servisa-svoei-sistemy')
+inline_btn_6 = InlineKeyboardButton('Active IQ', callback_data='button6', url='https://app.gitbook.com/@anton-kyrylenko/s/netapp/mysupport/active-iq')
+inline_kb1 = InlineKeyboardMarkup(row_width=1).add(inline_btn_1,inline_btn_2,inline_btn_3,inline_btn_4,inline_btn_5,inline_btn_6)
 
 # конпки поддержки по работе с ontap_basic
 ontap_btn_1 = InlineKeyboardButton('Как скачать прошивку', callback_data='button1', url='https://is.gd/aPBNIH')
